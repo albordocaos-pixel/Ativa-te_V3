@@ -85,32 +85,18 @@ const ClinicGallery = () => {
             }}
             className="!overflow-visible h-full"
           >
-            {photos.map((photo) => (
-              <SwiperSlide key={photo.alt} className="!h-full">
-                {({ isActive }: { isActive: boolean }) => (
-                  <motion.div
-                    className="rounded-2xl overflow-hidden shadow-sm bg-muted/40 h-full"
-                    animate={{
-                      scale: isActive ? 1.01 : 0.97,
-                      opacity: isActive ? 1 : 0.7,
-                    }}
-                    transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-                  >
-                    <div className="h-full w-full aspect-[3/4] bg-black/5 flex items-center justify-center">
-                      <motion.img
-                        src={photo.src}
-                        alt={photo.alt}
-                        loading="lazy"
-                        className="max-h-full max-w-full object-contain transition-all duration-700 ease-in-out"
-                        animate={{
-                          scale: isActive ? 1.3 : 1,
-                          filter: isActive ? "blur(0px)" : "blur(4px)",
-                        }}
-                        transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-                      />
-                    </div>
-                  </motion.div>
-                )}
+            {photos.map((photo, index) => (
+              <SwiperSlide key={index} className="!h-full">
+                <div className="rounded-2xl overflow-hidden shadow-sm bg-muted/40 h-full">
+                  <div className="h-full w-full aspect-[3/4] bg-black/5 flex items-center justify-center">
+                    <img
+                      src={photo.src}
+                      alt={photo.alt}
+                      loading="lazy"
+                      className="max-h-full max-w-full object-contain"
+                    />
+                  </div>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
