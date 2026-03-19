@@ -8,34 +8,24 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import clinicLounge from "@/assets/clinic-lounge.jpeg";
-import clinicTreatment1 from "@/assets/clinic-treatment1.jpeg";
-import clinicCorridor from "@/assets/clinic-corridor.jpeg";
-import clinicTreatment2 from "@/assets/clinic-treatment2.jpeg";
-import clinicOffice1 from "@/assets/clinic-office1.jpeg";
-import clinicOffice2 from "@/assets/clinic-office2.jpeg";
-import clinicHallway from "@/assets/clinic-hallway.jpeg";
-import clinicReception from "@/assets/clinic-reception.jpeg";
 import clinicCorridor2 from "@/assets/clinic-corridor2.jpeg";
 import clinicPilates from "@/assets/clinic-pilates.jpeg";
+import clinicHallway from "@/assets/clinic-hallway.jpeg";
+import clinicReception from "@/assets/clinic-reception.jpeg";
 import clinicLounge2 from "@/assets/clinic-lounge2.jpeg";
 import clinicTreatment3 from "@/assets/clinic-treatment3.jpeg";
 import clinicOffice3 from "@/assets/clinic-office3.jpeg";
 
 const photos = [
-  { src: clinicCorridor, alt: "Corredor e equipamentos da clínica" },
-  { src: clinicTreatment1, alt: "Sala de tratamento de fisioterapia" },
+  { src: clinicCorridor2, alt: "Corredor e equipamentos da clínica" },
   { src: clinicPilates, alt: "Sala de Pilates clínico" },
-  { src: clinicOffice1, alt: "Escritório da clínica" },
   { src: clinicHallway, alt: "Zona de espera com luz natural" },
   { src: clinicReception, alt: "Receção e decoração" },
   { src: clinicCorridor2, alt: "Corredor dos gabinetes" },
-  { src: clinicLounge, alt: "Zona de espera e café" },
+  { src: clinicLounge2, alt: "Zona de espera e café" },
   { src: clinicTreatment3, alt: "Gabinete de tratamento" },
   { src: clinicLounge2, alt: "Zona de café e conforto" },
   { src: clinicOffice3, alt: "Gabinete de consulta" },
-  { src: clinicTreatment2, alt: "Sala de tratamento" },
-  { src: clinicOffice2, alt: "Receção da clínica" },
 ];
 
 const ClinicGallery = () => {
