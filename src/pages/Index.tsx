@@ -59,7 +59,7 @@ const Index = () => {
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroBg} alt="" className="w-full h-full object-cover" />
+          {/* <img src={heroBg} alt="" className="w-full h-full object-cover" /> */}
           <div className="absolute inset-0 bg-foreground/40" />
         </div>
         <motion.div
@@ -69,13 +69,13 @@ const Index = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <img src={logo} alt="Ativa-te" className="h-28 w-auto mx-auto mb-8 drop-shadow-lg" />
-          <h1 className="font-display text-5xl md:text-7xl font-semibold text-foreground italic mb-4">
+          <h1 className="font-display text-5xl md:text-7xl font-semibold text-primary-foreground italic mb-4">
             Ativa-te
           </h1>
-          <p className="font-display text-xl md:text-2xl text-foreground/90 mb-2">
+          <p className="font-display text-xl md:text-2xl text-primary-foreground/90 mb-2">
             Unidade de Saúde e Bem-estar
           </p>
-          <p className="font-display text-2xl md:text-3xl text-foreground italic mt-8">
+          <p className="font-display text-2xl md:text-3xl text-primary-foreground italic mt-8">
             Cuidamos de si!
           </p>
           <a
