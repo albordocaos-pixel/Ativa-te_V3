@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 33% 96%;
+    --foreground: 25 30% 20%;
+
+    --card: 30 25% 93%;
+    --card-foreground: 25 30% 20%;
+
+    --popover: 30 33% 96%;
+    --popover-foreground: 25 30% 20%;
+
+    --primary: 30 35% 45%;
+    --primary-foreground: 30 33% 96%;
+
+    --secondary: 30 20% 85%;
+    --secondary-foreground: 25 30% 20%;
+
+    --muted: 30 15% 90%;
+    --muted-foreground: 25 15% 45%;
+
+    --accent: 25 40% 75%;
+    --accent-foreground: 25 30% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 30 35% 45%;
+
+    --radius: 0.5rem;
+
+    --warm-beige: 30 25% 88%;
+    --warm-tan: 30 30% 72%;
+    --warm-brown: 25 35% 35%;
+    --warm-cream: 35 40% 95%;
+    --warm-gold: 35 45% 60%;
+
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Lato', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
