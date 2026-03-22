@@ -297,7 +297,7 @@ const Index = () => {
             className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity"
           >
             <span className="font-body text-xs text-primary-foreground/60">by</span>
-            <img src={poetaDesign} alt="Poeta.Design" className="h-5 w-auto invert" />
+            <img src={poetaDesign} alt="Poeta.Design" className="h-24 w-auto invert" />
           </a>
         </div>
       </footer>
