@@ -25,12 +25,15 @@ const services = [
       "Saúde da Mulher",
       "Pilates Clínico (Grupo ou Individual)",
       "Terapia Miofascial",
+      "Intervenção Pós-Operatória",
       "Atendimento ao Domicílio",
     ],
   },
   {
     title: "Terapia da Fala",
-    items: ["Avaliação e intervenção em perturbações da comunicação, linguagem, fala e deglutição"],
+    items: [
+      "Avaliação e intervenção em perturbações da comunicação, linguagem, fala e deglutição",
+      "Atendimento ao Domicílio",],
   },
   {
     title: "Psicologia Clínica",
@@ -59,7 +62,7 @@ const Index = () => {
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          {/* <img src={heroBg} alt="" className="w-full h-full object-cover" /> */}
+          <img src={heroBg} alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-foreground/40" />
         </div>
         <motion.div
