@@ -10,9 +10,6 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <>
-    <div style={{ position: 'fixed', top: 0, left: 0, color: 'red', background: 'white', zIndex: 9999, padding: '10px', fontSize: '20px' }}>
-      App is rendering
-    </div>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />

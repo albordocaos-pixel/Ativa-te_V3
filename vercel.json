@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "buildCommand": "npm run build:dev",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "routes": [
     {
-      "src": "^/(.*)$",
+      "src": "/((?!assets|robots\\.txt|sitemap\\.xml|og-image\\.svg|placeholder\\.svg|favicon\\.ico).*)",
       "dest": "/index.html"
     }
   ],
