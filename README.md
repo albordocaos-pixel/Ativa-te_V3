@@ -1,6 +1,6 @@
-# Ativa-te - Clínica de Fisioterapia e Saúde
+# Ativa-te - Unidade de Fisioterapia e Saúde
 
-Website da Clínica Ativa-te, localizada em Aveiro, especializada em fisioterapia, terapia da fala e psicologia.
+Website da Unidade Ativa-te, localizada em Aveiro, especializada em fisioterapia, terapia da fala e psicologia.
 
 ## Tecnologias Utilizadas
 

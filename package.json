@@ -2,7 +2,7 @@
   "name": "ativa-te",
   "private": true,
   "version": "1.0.0",
-  "description": "Website da clínica Ativa-te em Aveiro - fisioterapia, terapia da fala e psicologia.",
+  "description": "Website da unidade Ativa-te em Aveiro - fisioterapia, terapia da fala e psicologia.",
   "type": "module",
   "scripts": {
     "dev": "vite",

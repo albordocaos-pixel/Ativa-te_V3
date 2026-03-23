@@ -17,7 +17,7 @@ import clinicTreatment3 from "@/assets/clinic-treatment3.jpeg";
 import clinicOffice3 from "@/assets/clinic-office3.jpeg";
 
 const photos = [
-  { src: clinicCorridor2, alt: "Corredor e equipamentos da clínica" },
+  { src: clinicCorridor2, alt: "Corredor e equipamentos da unidade" },
   { src: clinicPilates, alt: "Sala de Pilates clínico" },
   { src: clinicHallway, alt: "Zona de espera com luz natural" },
   { src: clinicReception, alt: "Receção e decoração" },
